@@ -1,0 +1,10 @@
+name: Special workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  special:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo My works is perfect.
